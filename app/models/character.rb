@@ -10,6 +10,7 @@ class Character < ActiveRecord::Base
   def build_show 
   end 
     
+  def chain_build
   
   
 end
