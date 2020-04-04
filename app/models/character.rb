@@ -11,6 +11,7 @@ class Character < ActiveRecord::Base
   end 
     
   def chain_build
+  end 
   
   
 end
