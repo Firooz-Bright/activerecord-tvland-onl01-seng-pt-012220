@@ -7,12 +7,6 @@ class Character < ActiveRecord::Base
     "#{self.name} always says: #{self.catchphrase}"
   end 
   
-  def build_show(name)
-    self.new(name)
-  end 
-    
-  def chain_build
-  end 
   
   
 end
